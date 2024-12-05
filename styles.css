@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://talentotechbogota.co/opengraph-image.png?7585abe254eaba33') no-repeat center center fixed; /* Fondo ajustado */
+    background-size: cover; /* Cubre toda la pantalla */
+}
+
+
+/* Contenedor principal */
+#container {
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Título y subtítulo */
+.title-section {
+    max-width: 70%; /* Limita el ancho de la sección de texto */
+}
+
+#main-title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#subtitle {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+
+
+/* Logo de la universidad */
+#university-logo {
+    max-width: 100px; 
+    height: auto; 
+    border-radius: 10px; 
+    border: 2px solid white; 
+    object-fit: contain; 
+}
